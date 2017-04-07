@@ -21,9 +21,9 @@ In the back end I am using plain Java EE7 and Java 8 technology, the test server
 is a wildfly 10.1.0.Final but any certified Java EE 7 server should work. There 
 are no extra dependencies shipped, so the WAR size is kept at its minimum.
 
-For JSON parsing I have opted to go with the built in Java EEJSON technology. 
+For JSON parsing I have opted to go with the built in Java EE JSON technology. 
 For this simple use case this is sufficient. If advanced mappings were needed, 
-I might opt to add a additional dependency. 
+I might opt to add an additional dependency. 
 No bean validation is added to the model as it was not required. 
 
 The packages are created with the BCE pattern in mind 
@@ -56,7 +56,7 @@ at once. Every component has a list of built-in features. For instance , the
 datatable component has built in sorting capability. Most features can also be 
 tweaked to your own preferences.
 
-State management in the front end has be kept as simple as possible 
+State management in the front end has been kept as simple as possible 
 (so no redux for instance).
 
 The  SPA exists only of a one module. It has not been divided into feature module, 
